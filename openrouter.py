@@ -59,4 +59,5 @@ response = requests.post(
 rprint(response.json())
 breakpoint()
 
+# 可高并发 多线程调用，try-except 捕捉
 
